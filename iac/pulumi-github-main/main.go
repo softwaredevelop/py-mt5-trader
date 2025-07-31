@@ -16,7 +16,7 @@ type GithubResource struct {
 func defineInfrastructure(ctx *pulumi.Context) (*GithubResource, error) {
 	repositoryName := "py-mt5-trader"
 	repositoryDescription := "A MetaTrader 5 trading framework in Python for developing and testing strategies."
-	repository, err := github.NewRepository(ctx, "newRepositoryPulumiGoComponents", &github.RepositoryArgs{
+	repository, err := github.NewRepository(ctx, "newRepositoryPyMt5Trader", &github.RepositoryArgs{
 		DeleteBranchOnMerge: pulumi.Bool(true),
 		Description:         pulumi.String(repositoryDescription),
 		HasIssues:           pulumi.Bool(true),
