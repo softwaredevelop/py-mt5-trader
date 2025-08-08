@@ -1,0 +1,9 @@
+extends: default
+
+ignore: |
+    Pulumi.*.yaml
+
+rules:
+    document-start:
+        ignore: |
+            Pulumi.yaml
