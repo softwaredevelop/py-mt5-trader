@@ -281,6 +281,9 @@ poetry.toml
 # LSP config files
 pyrightconfig.json
 
+# INI
+config.ini
+
 ### JupyterNotebooks ###
 
 # gitignore template for Jupyter Notebooks
