@@ -1,0 +1,11 @@
+name: mt5_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - ipykernel=6.29.5
+  - matplotlib=3.10.0
+  - pandas=2.3.1
+  - ta-lib=0.6.4
+  - pip:
+      - metatrader5==5.0.5200
