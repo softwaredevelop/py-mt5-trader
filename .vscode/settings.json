@@ -1,0 +1,7 @@
+{
+    "python.defaultInterpreterPath": "$home\\miniconda3\\envs\\mt5_env\\python.exe",
+    "python.terminal.activateEnvironment": true,
+    "files.exclude": {
+        "**/config.ini": true
+    }
+}
