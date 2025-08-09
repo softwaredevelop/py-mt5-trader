@@ -1,0 +1,10 @@
+[terminal_default]
+path = C:\\Program Files\\MetaTrader 5\\terminal64.exe
+
+# --- Accounts ---
+# You can add as many account sections as you need
+
+[account_default_demo]
+login = 12345678
+password = YourPassword
+server = MetaQuotes-Demo
