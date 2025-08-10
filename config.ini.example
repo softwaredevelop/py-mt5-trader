@@ -1,10 +1,15 @@
-[terminal_default]
-path = C:\\Program Files\\MetaTrader 5\\terminal64.exe
+[terminal_alpha]
+path = C:\\Program Files\\AlphaBroker MT5\\terminal64.exe
 
-# --- Accounts ---
-# You can add as many account sections as you need
+[terminal_beta]
+path = C:\\Program Files\\BetaBroker MT5\\terminal64.exe
 
-[account_default_demo]
-login = 12345678
-password = YourPassword
-server = MetaQuotes-Demo
+[account_alpha_demo]
+login = 11111111
+password = AlphaPassword
+server = AlphaBroker-Demo
+
+[account_beta_demo]
+login = 22222222
+password = BetaPassword
+server = BetaBroker-Demo
