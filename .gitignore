@@ -234,6 +234,9 @@ ENV/
 env.bak/
 venv.bak/
 
+# Conda (Anaconda/Miniconda)
+.conda/
+
 # Spyder project settings
 .spyderproject
 .spyproject
